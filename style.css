@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    padding: 12px;
+    margin: 15px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 25px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.map-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#map {
+    width: 80%;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background: #f1f1f1;
+    padding: 20px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TaxiApp</div>
+        <nav>
+            <a href="index.html">Башкы бет</a>
+            <a href="profile.html">Профиль</a>
+            <a href="history.html">Тарых</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Такси Кызматы</h1>
+        <p>Такси чакыруу үчүн телефонуңузду киргизиңиз:</p>
+        <input type="text" id="phone" placeholder="Телефон номер">
+        <button onclick="requestTaxi()">Такси чакыруу</button>
+    </div>
+
+    <div class="map-container">
+        <div id="map"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TaxiApp. Бардык укуктар корголгон.</p>
+    </footer>
+
+    <script src="yandex.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
